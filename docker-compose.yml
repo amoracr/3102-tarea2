@@ -1,0 +1,15 @@
+services:
+  devbox:
+    container_name: 3102-tarea2
+    tty: true
+    build:
+      context: .
+      dockerfile: DevBox.DockerFile
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - 80:80
+      - 8080:8080
+    volumes:
+      - .:/root/tarea2
+      - ./docs/.vuepress/dist:/var/www/html
