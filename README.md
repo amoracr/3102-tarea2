@@ -22,6 +22,7 @@ docker-compose up
 ```
 
 Ubuntu/Linux:
+
 ```bash
 sudo docker compose build
 sudo docker compose up
@@ -35,7 +36,7 @@ Windows:
 docker exec -it 3102-tarea2 /bin/bash
 ```
 
-Unbuntu/Linux:
+Ubuntu/Linux:
 
 ```bash
 sudo docker exec -it 3102-tarea2 /bin/bash
