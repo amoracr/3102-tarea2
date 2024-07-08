@@ -8,7 +8,8 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/images/logo.png'
   }),
+  head: [['link', { rel: 'icon', href: '/favicon.png' }]],
   lang: 'es-co',
   title: 'RyumiVT',
-  description: 'Qiubooooooooo bienvenido al rinconcito de la vtuber Costeña amante de las empanadas y valedora profesional de mondá. Espero que la pases muy chévere aquí!',  
+  description: 'Qiubooooooooo bienvenido al rinconcito de la vtuber Costeña amante de las empanadas y valedora profesional de mondá. Espero que la pases muy chévere aquí!',
 })
