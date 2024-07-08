@@ -4,6 +4,7 @@ Tarea # para el curso 03102 – Administración de Sitios Web
 Desarollado por Alonso Mora <alonso.mora@gmail.com>
 
 El sitio web está desarrollado en varias tecnologías:
+
 - Docker
 - Apache
 - Nodejs
@@ -14,6 +15,7 @@ El sitio web está desarrollado en varias tecnologías:
 Para activar el contenedor del proyecto, se deben ejecutar estos comandos:
 
 Windows:
+
 ```bash
 docker-compose build
 docker-compose up
@@ -28,11 +30,13 @@ sudo docker compose up
 Una vez que el contenedor esté activo, se debe acceder al mismo mediante este comando:
 
 Windows:
+
 ```bash
 docker exec -it 3102-tarea2 /bin/bash
 ```
 
 Unbuntu/Linux:
+
 ```bash
 sudo docker exec -it 3102-tarea2 /bin/bash
 ```
