@@ -18,7 +18,7 @@ features:
     details: Al comprar un cofre me ayudas a no morir de hambre, y por supuesto, de paso me puedes joder un poco en stream.
 ---
 
-### Me encuentran en
+### Me encuentras en
 
 - [Twitter](https://twitter.com/RyumiVt)
 - [Instagram](https://www.instagram.com/ryumivt/)
