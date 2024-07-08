@@ -24,6 +24,12 @@ RUN apt-get install -y graphicsmagick
 RUN cd /root
 RUN mkdir tarea2
 
+# Installing apache
+RUN apt-get install -y apache2
+
+CMD ["apachectl","-D","FOREGROUND"]
+RUN a2enmod rewrite
+
 EXPOSE 80
 EXPOSE 443
 EXPOSE 8080
