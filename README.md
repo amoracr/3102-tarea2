@@ -33,7 +33,7 @@ Una vez que el contenedor esté activo, se debe acceder al mismo mediante este c
 Windows:
 
 ```bash
-docker exec -t 3102-tarea2 /bin/bash
+docker exec -t 3102-tarea2 //bin//bash
 ```
 
 Ubuntu/Linux:
