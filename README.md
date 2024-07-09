@@ -20,6 +20,7 @@ Windows:
 docker-compose build
 docker-compose up
 ```
+O bien mediante docker desktop iniciar el contenedor.
 
 Ubuntu/Linux:
 
@@ -35,6 +36,8 @@ Windows:
 ```bash
 docker exec -t 3102-tarea2 //bin//bash
 ```
+
+O mediante docker desktop abrir una terminal en el contenedor.
 
 Ubuntu/Linux:
 
