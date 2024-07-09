@@ -54,4 +54,4 @@ npm install
 npm run build
 ```
 
-Una vez terminada la generación del sitio, se puede acceder en un navegador en el enlace [http://localhost/]
+Una vez terminada la generación del sitio, se puede acceder en un navegador en el enlace [http://localhost/](http://localhost/)
